@@ -81,8 +81,8 @@
     }
         
     .header__sun {
-        width: var(--size-xl);
-        height: var(--size-xl);
+        width: var(--size-3xl);
+        height: var(--size-3xl);
     }
     .header__resume {
         font-size: var(--size-sm);

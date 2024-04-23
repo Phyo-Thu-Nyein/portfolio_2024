@@ -41,11 +41,12 @@
 }
 
 .mobile-nav__sun {
-    width: var(--size-xl);
-    height: var(--size-xl);
-    color: var(--clr-slate600);
+    width: var(--size-3xl);
+    height: var(--size-3xl);
+    /* color: var(--clr-light); */
     display: block;
 }
+
 
 .mobile-nav__btn {
     font-size: var(--size-sm);

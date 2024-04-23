@@ -57,10 +57,15 @@
     
     .header__sun {
         display: block;
-        color: var(--clr-slate600);
-        width: var(--size-base);
-        height: var(--size-base);
+        /* color: var(--clr-light); */
+        width: var(--size-2xl);
+        height: var(--size-2xl);
     }
+
+    .night {
+        display: none;
+    }
+
     .header__resume {
         font-size: var(--size-sm);
     }

@@ -19,6 +19,25 @@
     max-width: 60ch;
 }
 
+.social-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links-container a {
+    width: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links-container a > i {
+    font-size: var(--size-4xl);
+}
+.social-links-container a > i:hover {
+    color: var(--clr-light);
+}
+
 .contact__btn {
     font-size: var(--size-sm);
 }

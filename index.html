@@ -83,6 +83,7 @@
         </button>
       </nav>
     </header>
+
     <!-- Start of Mobile nav -->
     <div class="mobile-nav">
       <nav>
@@ -139,7 +140,9 @@
       </nav>
     </div>
     <!-- End of Mobile nav -->
+
     <main>
+      <!-- Hero Section -->
       <section class="hero container">
         <img class="hero__img" src="./hero.jpg" alt="profile picture of me" />
         <h2 class="hero__subtitle">Greetings! I'm Phyo</h2>
@@ -153,6 +156,7 @@
         </p>
         <a class="hero__btn btn" href="">Connect</a>
       </section>
+      <!-- About Section -->
       <section class="about container section" id="about">
         <div class="about__content">
           <h2 class="about__title">About</h2>
@@ -205,8 +209,177 @@
           />
         </div>
       </section>
+      <!-- Featured Project 1 -->
       <section class="featured container section" id="featured">
         <h3 class="featured__subtitle">Featured Projects</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">EmberGlow</h2>
+          <a
+            aria-label="link to my featured website"
+            href="https://ember-glow.vercel.app"
+            target="_blank"
+            class="featured__link"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.757a3.75 3.75 0 0 0 0-5.304Zm-7.389 4.267a.75.75 0 0 1 1-.353 5.25 5.25 0 0 1 1.449 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.757a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.354-1Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="featured__description">
+          A beautiful and responsive Hotel-Booking website where you can create
+          an account to book the room you wish. After a successful booking, the
+          user will receive a detailed email about the booking information.
+          Admin/ Manager view is also implemented for handling of adding/
+          updating/ deleting rooms, and users.
+        </p>
+        <div class="featured__info-container">
+          <div class="featured__col-container">
+            <h3 class="featured__label">Tech Stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">MongoDB</li>
+              <li class="featured__info">Express</li>
+              <li class="featured__info">Angular</li>
+              <li class="featured__info">NodeJs</li>
+              <li class="featured__info">Vercel</li>
+              <li class="featured__info">Render</li>
+              <li class="featured__info">OAuth 2.0</li>
+              <li class="featured__info">Cloudinary</li>
+            </ul>
+          </div>
+          <div class="featured__col-container">
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured__info">Fullstack-Jamstack</p>
+          </div>
+          <div class="featured__col-container">
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">Feburary 2024 - Present</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/1-home.png"
+              alt="Phyo movie landing page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/2-about.png"
+              alt="Phyo movie login page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/3-rooms.png"
+              alt="Phyo movie home page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/4-manager.png"
+              alt="Phyo movie movies section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/5-manage-users.png"
+              alt="Phyo movie footer section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/6-manage-bookings.png"
+              alt="Phyo movie movie details page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/7-update-room.png"
+              alt="Phyo movie casts section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/8-new-room.png"
+              alt="Phyo movie cast details page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/9-manager-profile.png"
+              alt="Phyo movie cast details page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/10-user-profile.png"
+              alt="Phyo movie cast details page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/11-payment.png"
+              alt="Phyo movie cast details page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/12-mail.png"
+              alt="Phyo movie cast details page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/13-new-invoice.png"
+              alt="Phyo movie cast details page"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              class="lazy loading"
+              src="https://fakeimg.pl/1280x610"
+              data-src="/ember-glow-img/14-print-invoice.png"
+              alt="Phyo movie cast details page"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Featured Project 2 -->
+      <section class="featured container section" id="featured">
         <div class="featured__wrapper">
           <h2 class="featured__title">PhyoMovie</h2>
           <a
@@ -237,13 +410,11 @@
           <div class="featured__col-container">
             <h3 class="featured__label">Tech Stack</h3>
             <ul class="featured__tech-stack">
-              <li class="featured__info">HTML</li>
-              <li class="featured__info">CSS</li>
-              <li class="featured__info">JavaScript</li>
-              <li class="featured__info">Angular</li>
-              <li class="featured__info">API</li>
-              <li class="featured__info">NodeJs</li>
               <li class="featured__info">MongoDB</li>
+              <li class="featured__info">Express</li>
+              <li class="featured__info">Angular</li>
+              <li class="featured__info">NodeJs</li>
+              <li class="featured__info">API</li>
             </ul>
           </div>
           <div class="featured__col-container">
@@ -322,10 +493,12 @@
           </div>
         </div>
       </section>
+      <!-- Projects Section -->
       <section class="work container section">
-        <h2 class="work__title">Projects</h2>
+        <h2 class="work__title">Other Projects</h2>
         <p class="work__description">
-          Here are some of the projects that I worked on throughout my learning career.
+          Here are some of the projects that I worked and still working on
+          throughout my learning journey.
         </p>
         <div class="work__container">
           <!-- Project 1 -->
@@ -341,13 +514,16 @@
           <div class="work__project work__content1">
             <h3 class="work__project-subtitle">Weather Whispers</h3>
             <p class="work__project-description1">
-              A weather web application built with anuglar, powered by OpenWeatherMap api.
+              A weather web application built with anuglar, powered by
+              OpenWeatherMap API.
             </p>
             <p class="work__project-description2">
-              Know what the weather is in your city by simply searching the name of your city with one click. 
+              Know what the weather is in your city by simply searching the name
+              of your city with one click.
             </p>
             <a
               class="btn work__project-btn"
+              target="_blank"
               href="https://weather-webapp-pied.vercel.app"
               >Website</a
             >
@@ -366,16 +542,23 @@
           <div class="work__project work__content2">
             <h3 class="work__project-subtitle">Planet Travel</h3>
             <p class="work__project-description1">
-              An amateur project that I developed with a friend of mine for a student in Japan.
+              An amateur front-end-only website that I developed after learning
+              a good amount of CSS to style websites.
             </p>
             <p class="work__project-description2">
-              I built the Landing page and Login page using HTML and CSS only. Used AI technology for the images applied in the website. 
+              Imagine that you can travel to other planets with a tour service.
+              Explore the universe and beyond.
             </p>
-            <a class="btn work__project-btn" href="https://planet-travel-lovat.vercel.app">Website</a>
+            <a
+              class="btn work__project-btn"
+              target="_blank"
+              href="https://planet-travel-lovat.vercel.app"
+              >Website</a
+            >
           </div>
 
           <!-- Project 3 -->
-          <h3 class="work__project-title">MSI Farm</h3>
+          <!-- <h3 class="work__project-title">MSI Farm</h3>
           <div class="work__img-wrapper work__image3">
             <img
               class="lazy loading"
@@ -396,16 +579,21 @@
               nulla?
             </p>
             <a class="btn work__project-btn" href="#">Website</a>
-          </div>
+          </div> -->
         </div>
       </section>
+      <!-- Contact Section -->
       <section class="contact container section" id="contact">
         <h2 class="contact__title">Get In Contact</h2>
         <p class="contact__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vero
-          illo nostrum expedita suscipit asperiores laudantium odio facere eaque
-          quia?
+          If you have any questions about my work or just want to say hi, you can find me in the links below :)
+          Thanks!
         </p>
+        <div class="social-links-container">
+          <a href="https://t.me/Nyein_Mg" target="_blank"><i class='bx bxl-telegram' ></i></a>
+          <a href="https://discordapp.com/users/154631864458412032" target="_blank"><i class='bx bxl-discord-alt'></i></a>
+          <a href="https://www.linkedin.com/in/phyo-thu-nyein-b62142220/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        </div>
         <a
           class="contact__btn btn"
           href="mailto:phyothunyein14@gmail.com"

@@ -19,6 +19,9 @@
     width: var(--size-2xl);
     height: var(--size-2xl);
 }
+.git__link {
+    font-size: var(--size-5xl);
+}
 
 .featured__description {
     max-width: 60ch;

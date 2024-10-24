@@ -61,6 +61,11 @@
     font-size: var(--size-sm);
 }
 
+.git__repo {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
 .work__project-subtitle {
     display: none;
 }

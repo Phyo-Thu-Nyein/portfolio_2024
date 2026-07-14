@@ -50,8 +50,13 @@
     margin-top: 5rem;
 
 }
-.about, .featured, .contact {
+.about, .featured, .contact, .hobbies {
     padding-top: 1rem;
+}
+
+/* Ensure anchor links scroll to the right spot */
+#about, #featured, #hobbies, #contact {
+    scroll-margin-top: 2rem;
 }
 
 .loading {

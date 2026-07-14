@@ -92,3 +92,16 @@ body::-webkit-scrollbar {
     background-color: var(--clr-rose);
     outline: 1px solid var(--clr-rose);
   }
+
+/* Scroll Reveal */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity .8s ease, transform .8s ease;
+    will-change: opacity, transform;
+}
+
+.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}

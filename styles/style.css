@@ -34,6 +34,16 @@
     transition: all .4s;
 }
 
+/* Override global transition for elements that need precise timing */
+.music-player__progress-fill {
+    transition: width 0.3s linear;
+}
+
+.music-player__volume-slider,
+.music-player__volume-slider::-webkit-slider-thumb {
+    transition: none;
+}
+
 html {
     scroll-behavior: smooth;
 }

@@ -903,6 +903,41 @@
     <footer class="footer container section">
       <h3 class="footer__title">~ Phyo Thu Nyein ~</h3>
     </footer>
+
+    <!-- Floating Music Player -->
+    <div class="music-player" id="music-player">
+      <audio class="music-player__audio" preload="metadata">
+        <source src="/lofi-song/HM Surf–Single Phial.mp3" type="audio/mpeg" />
+      </audio>
+      <button class="music-player__play-btn" aria-label="Play or pause music">
+        <i class="bx bx-play music-player__icon-play"></i>
+        <i class="bx bx-pause music-player__icon-pause"></i>
+      </button>
+      <div class="music-player__info">
+        <span class="music-player__title">Single Phial</span>
+        <span class="music-player__artist">HM Surf</span>
+      </div>
+      <div class="music-player__volume">
+        <button class="music-player__volume-btn" aria-label="Toggle mute">
+          <i class="bx bx-volume-low"></i>
+        </button>
+        <div class="music-player__volume-slider-wrap">
+          <input
+            class="music-player__volume-slider"
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            value="0.4"
+            aria-label="Volume"
+          />
+        </div>
+      </div>
+      <div class="music-player__progress">
+        <div class="music-player__progress-fill"></div>
+      </div>
+    </div>
+
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

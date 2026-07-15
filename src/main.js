@@ -16,12 +16,10 @@ import mobileNav from './utils/mobile-nav';
 import darkMode from './utils/dark-mode';
 import lazyLoading from './utils/lazy-loading';
 import hobbies from './utils/hobbies';
-import scrollReveal from './utils/scroll-reveal';
 import musicPlayer from './utils/music-player';
 
 mobileNav();
 darkMode();
 lazyLoading();
 hobbies();
-scrollReveal();
 musicPlayer();

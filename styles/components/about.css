@@ -54,6 +54,12 @@
     margin-left: .4em;
 } */
 
+.about__img {
+    aspect-ratio: 1 / 1;
+    background: var(--clr-slate800);
+    border-radius: 6px;
+}
+
 /* xs */
 @media (min-width: 475px) {
     .about {

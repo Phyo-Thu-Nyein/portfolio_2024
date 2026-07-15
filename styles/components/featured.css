@@ -72,6 +72,10 @@
 }
 .featured__img-wrapper {
     position: relative;
+    aspect-ratio: 1280 / 610;
+    overflow: hidden;
+    background: var(--clr-slate800);
+    border-radius: 6px;
 }
 .featured__img-wrapper::after {
     content: '';

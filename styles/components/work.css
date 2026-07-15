@@ -23,6 +23,10 @@
 
 .work__img-wrapper {
     position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: var(--clr-slate800);
+    border-radius: 6px;
 }
 
 .work__img-wrapper::after {
